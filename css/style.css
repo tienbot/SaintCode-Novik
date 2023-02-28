@@ -108,14 +108,58 @@ section{
 }
 
 #aboutMe{
-    padding: 120px 0 107px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 107px;
 }
 
 #aboutMe .content{
     margin-top: 18px;
     text-align: center;
+}
+
+#skills{
+    padding-top: 91px;
+    padding-bottom: 110px;
+}
+
+#skills h2{
+    margin-bottom: 69px;
+}
+
+#skills .descr{
+    margin-bottom: 83px;
+    text-align: center;
+}
+
+#skills .cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillCard{
+    width: 166px;
+    height: 206px;
+}
+
+.skillCard .skill-img{
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.skillCard p{
+    margin: auto;
+    width: 79px;
+    text-align: center;
+    color: #828282;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.raiting{
+    display: flex;
+    justify-content: space-between;
+}
+
+.star-grey{
+    filter: invert(85%) sepia(20%) saturate(0%) hue-rotate(137deg) brightness(102%) contrast(96%)
 }
