@@ -145,10 +145,12 @@ section{
 .skillCard p{
     margin: auto;
     width: 79px;
+    margin-bottom: 41px;
     text-align: center;
     color: #828282;
     font-size: 14px;
     line-height: 17px;
+    min-height: 34px;
 }
 
 .raiting{
