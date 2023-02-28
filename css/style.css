@@ -51,6 +51,10 @@ header{
     text-decoration: none;
 }
 
+.navigation a:hover{
+    color: #070707;
+}
+
 .navigation .active{
     color: #070707;
 }
@@ -101,4 +105,17 @@ section{
 
 .section_grey{
     background-color: #F6F6F6;
+}
+
+#aboutMe{
+    padding: 120px 0 107px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutMe .content{
+    margin-top: 18px;
+    text-align: center;
 }
