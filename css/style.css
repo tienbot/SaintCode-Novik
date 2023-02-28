@@ -3,25 +3,21 @@
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 400;
-    /* Браузер сначала попробует найти шрифт локально */
 src: local("Gilroy"),
-        url("./fonts/Gilroy-Medium.eot") format("eot"),
-        url("./fonts/Gilroy-Medium.woff") format("woff"),
-        url("./fonts/Gilroy-Medium.ttf") format("ttf");
+        url("../fonts/Gilroy-Medium.eot") format("eot"),
+        url("../fonts/Gilroy-Medium.woff") format("woff"),
+        url("../fonts/Gilroy-Medium.ttf") format("ttf");
 }
 
 @font-face {
     font-family: "Gilroy";
     font-style: bold;
     font-weight: 700;
-    /* Браузер сначала попробует найти шрифт локально */
     src: local("Gilroy"),
-        url("./fonts/Gilroy-Bold.eot") format("eot"),
-        url("./fonts/Gilroy-Bold.woff") format("woff"),
-        url("./fonts/Gilroy-Bold.ttf") format("ttf");
+        url("../fonts/Gilroy-Bold.eot") format("eot"),
+        url("../fonts/Gilroy-Bold.woff") format("woff"),
+        url("../fonts/Gilroy-Bold.ttf") format("ttf");
 }
-
-/* СТИЛИ */
 
 *{
     font-family:"Gilroy";
