@@ -163,3 +163,22 @@ section{
 .star-grey{
     filter: invert(85%) sepia(20%) saturate(0%) hue-rotate(137deg) brightness(102%) contrast(96%)
 }
+
+#portfolio{
+    padding-top: 113px;
+    padding-bottom: 96px;
+}
+
+#portfolio h2{
+    margin-bottom: 42px;
+}
+
+#portfolio img{
+    margin-bottom: 42px;
+}
+
+#portfolio p{
+    margin: auto;
+    margin-bottom: 99px;
+    text-align: center;
+}
