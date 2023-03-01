@@ -61,6 +61,16 @@ hr{
     color: #828282;
 }
 
+.burger{
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+
+.burger:hover{
+    cursor: pointer;
+}
+
 h1, h2{
     font-weight: 700;
     font-size: 47.3392px;
@@ -115,7 +125,7 @@ section{
 
 #skills{
     padding-top: 91px;
-    padding-bottom: 110px;
+    padding-bottom: 29px;
 }
 
 #skills h2{
@@ -135,6 +145,7 @@ section{
 .skillCard{
     width: 166px;
     height: 206px;
+    margin-bottom: 81px;
 }
 
 .skillCard .skill-img{
@@ -226,4 +237,77 @@ footer p{
     font-size: 14px;
     line-height: 17px;
     color: #828282;
+}
+
+@media only screen and (max-width: 375px) {
+    header{
+        margin-top: 65px;
+        padding: 0 29px;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .topContent{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .maininfo{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h1{
+        margin-bottom: 23px;
+    }
+
+    section{
+        padding: 0 29px;
+    }
+
+    #aboutMe{
+        padding-top: 81px;
+        padding-bottom: 86px;
+    }
+
+    #skills{
+        padding-top: 83px;
+        padding-bottom: 17px;
+    }
+
+    #skills .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #portfolio{
+        padding-top: 81px;
+        padding-bottom: 3px;
+    }
+
+    #portfolio p{
+        margin-bottom: 78px;
+    }
+
+    #contacts{
+        padding-top: 82px;
+    }
+
+    #contacts button{
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+    footer p{
+        line-height: 22px;
+        font-size: 18px;
+        margin-bottom: 90px;
+    }
 }
