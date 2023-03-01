@@ -25,7 +25,10 @@ src: local("Gilroy"),
 }
 
 header{
-    padding: 0 252px;
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 940px;
+    width: 100%;
 }
 
 .navigation ul{
@@ -106,40 +109,47 @@ h2{
 }
 
 section{
-    padding: 0 252px;
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
 }
 
 .section_grey{
     background-color: #F6F6F6;
 }
 
-#aboutMe{
+.aboutMe{
     padding-top: 120px;
     padding-bottom: 107px;
 }
 
-#aboutMe .content{
+.aboutMe .content{
     margin-top: 18px;
     text-align: center;
 }
 
-#skills{
+.skills{
     padding-top: 91px;
     padding-bottom: 29px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 }
 
-#skills h2{
+.skills h2{
     margin-bottom: 69px;
 }
 
-#skills .descr{
+.skills .descr{
     margin-bottom: 83px;
     text-align: center;
 }
 
-#skills .cards{
+.skills .cards{
     display: flex;
     justify-content: space-between;
+    max-width: 940px;
+    width: 100%;
 }
 
 .skillCard{
@@ -173,26 +183,29 @@ section{
     filter: invert(85%) sepia(20%) saturate(0%) hue-rotate(137deg) brightness(102%) contrast(96%)
 }
 
-#portfolio{
+.portfolio{
     padding-top: 113px;
     padding-bottom: 96px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 }
 
-#portfolio h2{
+.portfolio h2{
     margin-bottom: 42px;
 }
 
-#portfolio img{
+.portfolio img{
     margin-bottom: 42px;
 }
 
-#portfolio p{
+.portfolio p{
     margin: auto;
     margin-bottom: 99px;
     text-align: center;
 }
 
-#contacts{
+.contacts{
     padding-top: 114px;
     display: flex;
     flex-direction: column;
@@ -200,18 +213,18 @@ section{
     align-items: center;
 }
 
-#contacts h2{
+.contacts h2{
     margin-bottom: 20px;
 }
 
-#contacts p{
+.contacts p{
     text-align: center;
     margin-bottom: 29px;
     font-size: 18px;
     line-height: 22px;
 }
 
-#contacts button{
+.contacts button{
     height: 42px;
     width: 180px;
     margin: auto;
@@ -223,11 +236,12 @@ section{
     margin-bottom: 86px;
 }
 
-#contacts .social{
-    width: 342px;
+.contacts .social{
+    /* width: 342px; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 45px;
+    gap: 30px;
 }
 
 footer p{
@@ -272,35 +286,35 @@ footer p{
         padding: 0 29px;
     }
 
-    #aboutMe{
+    .aboutMe{
         padding-top: 81px;
         padding-bottom: 86px;
     }
 
-    #skills{
+    .skills{
         padding-top: 83px;
         padding-bottom: 17px;
     }
 
-    #skills .cards{
+    .skills .cards{
         flex-direction: column;
         align-items: center;
     }
 
-    #portfolio{
+    .portfolio{
         padding-top: 81px;
         padding-bottom: 3px;
     }
 
-    #portfolio p{
+    .portfolio p{
         margin-bottom: 78px;
     }
 
-    #contacts{
+    .contacts{
         padding-top: 82px;
     }
 
-    #contacts button{
+    .contacts button{
         width: 100%;
         margin-bottom: 48px;
     }
