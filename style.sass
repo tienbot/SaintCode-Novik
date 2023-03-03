@@ -1,23 +1,5 @@
-@font-face
-    font-family: "Gilroy"
-    font-style: normal
-    font-weight: 400
-    src: local("Gilroy"),
-        url:("../fonts/Gilroy-Medium.eot") format("eot"),
-        url:("../fonts/Gilroy-Medium.woff") format("woff"),
-        url:("../fonts/Gilroy-Medium.ttf") format("ttf")
-
-@font-face
-    font-family: "Gilroy"
-    font-style: bold
-    font-weight: 700
-    src: local("Gilroy"),
-        url:("../fonts/Gilroy-Bold.eot") format("eot"),
-        url:("../fonts/Gilroy-Bold.woff") format("woff"),
-        url:("../fonts/Gilroy-Bold.ttf") format("ttf")
-
 *
-    font-family:"Gilroy"
+    font-family: "Gilroy", sans-serif
     color: #070707
 
 header
@@ -34,8 +16,6 @@ header
         justify-content: space-between
     li
         list-style-type: none
-        margin-left: 0
-        padding-left: 0
     a
         color: #828282
         text-decoration: none
@@ -48,12 +28,13 @@ header
     display: none
 
 hr
-    margin: 0
     margin-bottom: 40px
     color: #828282
 
 .burger
     display: none
+    // position: fixed
+    // right: 30px
     background-color: transparent
     border: none
     &:hover
@@ -77,6 +58,7 @@ h2
     p 
         width: 156px
         font-size: 18px
+        font-weight: 400
         line-height: 22px
         margin-bottom: 20px
 
@@ -222,6 +204,7 @@ footer
             display: none
         &__open
             left: 0%
+            z-index: 10
 
     .close
         display: block
