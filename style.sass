@@ -19,6 +19,7 @@ header
     a
         color: #828282
         text-decoration: none
+        transition: all 0.5s ease-out
         &:hover
             color: #070707
     .active
@@ -104,7 +105,7 @@ section
     height: 206px
     margin-bottom: 81px
     .skillImg
-        margin: auto
+        margin: 0 auto
         margin-bottom: 24px
     p
         margin: auto
@@ -129,10 +130,19 @@ section
         margin-bottom: 42px
     img
         margin-bottom: 42px
+        transition: all 0.5s ease-out
+        &:hover
+            scale: 1.05
     p
         margin: auto
         margin-bottom: 99px
         text-align: center
+    &_link
+        text-decoration: none
+        border-bottom: 1px solid #000
+        transition: all 0.3s ease-out
+        &:hover
+            border-bottom: 1px solid transparent
 
 .contacts
     padding-top: 114px
@@ -157,12 +167,22 @@ section
         border: none
         border-radius: 30px
         margin-bottom: 86px
+        transition: all 0.5s ease-out
+        &:hover
+            color: #000
+            background-color: #fff
+            outline: solid 1px #000
+            cursor: pointer
     .social
         max-width: 342px
         width: 100%
         display: flex
         justify-content: space-between
         margin-bottom: 45px
+        a
+            transition: all 0.5s ease-out
+            &:hover
+                scale: 1.3
 
 footer 
     p
